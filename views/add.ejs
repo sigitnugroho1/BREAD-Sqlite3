@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <form method="POST">
+            <h1>Add Data</h1>
+            <div class="form-group row">
+                <label for="example-text-input" class="col-sm-2 col-form-label">String</label>
+                <div class="col-sm-4">
+                    <input type="text" class="from-control" id="example-text-input" name="string" placeholder="String">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="example-text-input" class="col-sm-2 col-form-label">Integer</label>
+                <div class="col-sm-4">
+                    <input type="text" class="from-control" id="example-text-input" name="integer"
+                        placeholder="Integer">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="example-text-input" class="col-sm-2 col-form-label">Float</label>
+                <div class="col-sm-4">
+                    <input type="text" class="from-control" id="example-text-input" name="float" placeholder="Float">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="example-text-input" class="col-sm-2 col-form-label">Date</label>
+                <div class="col-sm-4">
+                    <input type="date" class="from-control" id="example-text-input" name="date">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="example-text-input" class="col-sm-2 col-form-label">Boolean</label>
+                <div class="col-sm-4">
+                    <select class="custom-select" name="boolean">
+                        <option value="" selected>Choose the boolean....</option>
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+    </div>
+</body>
+
+</html>
